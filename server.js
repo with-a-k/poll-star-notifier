@@ -5,7 +5,8 @@ const io = require('socket.io')(http);
 
 io.on('connection', function (socket) {
   socket.on('message', function (channel, message) {
-  	console.log('Received ' + message);
+  	console.log(message);
+  	io.emit(channel);
   });
   console.log('Connection OK');
 });
