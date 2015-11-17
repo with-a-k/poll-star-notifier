@@ -1,0 +1,11 @@
+{
+  "name": "poll-star-notifier",
+  "version": "1.0.0",
+  "description": "Backend event manager for Poll*Star.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Erik Butcher",
+  "license": "ISC"
+}
